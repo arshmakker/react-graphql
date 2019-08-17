@@ -4,10 +4,14 @@ import { Box } from '@material-ui/core'
 import Typography from '@material-ui/core/Typography'
 import Skeleton from '@material-ui/lab/Skeleton'
 import { useQuery } from '@apollo/react-hooks'
+
 // custom imports
-import { GET_WINNERS } from '../constants/graphqlQueries'
+import { GET_WINNERS } from '../constants/mediaqueries'
 export default function Media(props) {
+  // state updates
   const { loading, error, data } = useQuery(GET_WINNERS)
+
+  // checking state variables
   if (loading) return 'Loading...'
   if (error) return `Error! ${error.message}`
 
