@@ -1,0 +1,27 @@
+{
+  "html.format.contentUnformatted": "pre,code,textarea,li",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.activityBar.visible": true,
+  "breadcrumbs.enabled": false,
+  "git.confirmSync": false,
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.excludeLanguages": ["markdown", "javascriptreact"],
+  "workbench.editor.showTabs": false,
+  "editor.formatOnSave": true,
+  // eslint settings
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "html.format.wrapLineLength": 80,
+  "editor.accessibilitySupport": "off",
+  "nativescript.analytics.enabled": true,
+  "search.location": "sidebar",
+  "diffEditor.renderSideBySide": true,
+  "prettier.semi": false,
+  "vetur.validation.template": false,
+  "terminal.integrated.rendererType": "dom",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.implicitProjectConfig.checkJs": true
+}
